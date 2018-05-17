@@ -1,5 +1,11 @@
 # Actions On Google Client Library
 
+
+## THIS IS DEVELOPMENT BRANCH FOR V2 SUPPORT
+
+This branch will bring the this in line with the node.js V2 library and support v2 of dialog flow & Action on Google.
+UNDER ACTIVE DEVELOPMENT - probably will not work for you at this time.
+
 ![](https://storage.googleapis.com/kotlin-actions-sdk.appspot.com/actions-kotlin-java.png)
 
 This is a port of the [official Node.js SDK](https://github.com/actions-on-google/actions-on-google-nodejs) to Kotlin.  This can also be used from Java and any JVM language.
@@ -22,18 +28,19 @@ This library is available on jCenter.  If your using gradle simply add the depen
 __Gradle:__
 
     repositories {
-    	jcenter()
+            jCenter()
+        }
     }
     
     dependencies {
-        compile 'com.tmsdurham.actions:actions-on-google:1.6.3'
+        compile 'com.tmsdurham.actions:actions-on-google:1.6.0'
     }
 __Maven:__
 
     <dependency>
   		<groupId>com.tmsdurham.actions</groupId>
   		<artifactId>actions-on-google</artifactId>
-  		<version>1.6.3</version>
+  		<version>1.6.0</version>
   		<type>pom</type>
     </dependency>
 
@@ -41,14 +48,14 @@ The above artifact should fit the needs of most developers, however, if you are 
 
 __Gradle:__
 
-   	compile 'com.tmsdurham.actions:actions-on-google-core:1.6.3'. //only if not using Servlets
+   	compile 'com.tmsdurham.actions:actions-on-google-core:1.6.0'. //only if not using Servlets
 
 __Maven:__
 
     <dependency>
   		<groupId>com.tmsdurham.actions</groupId>
   		<artifactId>actions-on-google-core</artifactId>		//only if not using Servlets
-  		<version>1.6.3</version>
+  		<version>1.6.0</version>
   		<type>pom</type>
     </dependency>
 
